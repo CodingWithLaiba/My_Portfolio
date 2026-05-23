@@ -1,12 +1,15 @@
+import { Routes, Route } from "react-router-dom";
 
+import Home from "./pages/Home";
+// import notFound from "./pages/not-found";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is a simple React app.</p>
-    </div>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+      {/* <Route path="*" element={<notFound />} /> */}
+    </Routes>
+  );
 }
 
-export default App
+export default App;
