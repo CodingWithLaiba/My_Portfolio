@@ -43,13 +43,22 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        
         {/* Logo */}
         <button
           onClick={() => scrollToSection("hero")}
-          className="text-xl font-bold tracking-tight text-foreground hover:text-primary transition-colors"
+          className="group flex items-center text-xl font-semibold tracking-tight"
         >
-          Laiba<span className="text-primary">.</span>
+          <span className="text-primary opacity-70 group-hover:opacity-100 transition">
+            &lt;
+          </span>
+
+          <span className="mx-1 text-foreground group-hover:text-primary transition-colors">
+            Laiba<span className="text-primary">.</span>
+          </span>
+
+          <span className="text-primary opacity-70 group-hover:opacity-100 transition">
+            /&gt;
+          </span>
         </button>
 
         {/* Desktop Menu */}
