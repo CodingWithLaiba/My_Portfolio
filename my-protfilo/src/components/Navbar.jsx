@@ -53,7 +53,7 @@ export default function Navbar() {
           </span>
 
           <span className="mx-1 text-foreground group-hover:text-primary transition-colors">
-            Laiba<span className="text-primary">.</span>
+            CodingWithLaiba<span className="text-primary">.</span>
           </span>
 
           <span className="text-primary opacity-70 group-hover:opacity-100 transition">
