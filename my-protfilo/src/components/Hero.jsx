@@ -63,7 +63,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-base md:text-lg text-muted-foreground/80 mb-10 max-w-2xl leading-relaxed"
         >
-          Crafting precise, high-performance web experiences with modern
+          Crafting precise, high performance web experiences with modern
           architecture. Obsessed with clean code, elegant interfaces, and
           solving complex problems.
         </motion.p>
