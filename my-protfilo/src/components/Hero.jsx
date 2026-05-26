@@ -100,7 +100,7 @@ export default function Hero() {
             asChild
             data-testid="button-download-cv"
           >
-            <a href="/Laiba_Ijaz_Resume.pdf" download="Laiba_Ijaz_Resume.pdf">
+            <a href="LaibaIjazCV.pdf" download>
               <Download className="mr-2 w-4 h-4 group-hover:-translate-y-0.5 transition-transform" />
               Download CV
             </a>
