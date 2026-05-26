@@ -1,16 +1,156 @@
-# React + Vite
+# 🌌 Laiba Ijaz — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**.
 
-Currently, two official plugins are available:
+Designed with a premium **Midnight Teal UI system**, smooth animations, glowing gradients, and clean component architecture to showcase projects, skills, and professional experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🌙 Midnight Teal Design System
+* ⚡ Built with Vite for ultra-fast performance
+* 🎨 Tailwind CSS styling
+* 🎥 Smooth animations using Framer Motion
+* 📱 Fully responsive design
+* 🧩 Reusable component architecture
+* 📂 Project showcase section
+* 🛠 Technical skills section
+* 📄 Downloadable CV
+* 📬 Interactive contact section
+* 🌌 Modern glowing UI effects
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+### Frontend
+
+* React.js
+* JavaScript (ES6+)
+* Tailwind CSS
+* Framer Motion
+* Shadcn UI
+
+### Tools
+
+* Vite
+* Git & GitHub
+* Lucide React
+* React Icons
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+ ├── components/
+ │    ├── Hero.jsx
+ │    ├── Navbar.jsx
+ │    ├── About.jsx
+ │    ├── Skills.jsx
+ │    ├── Project.jsx
+ │    ├── Contact.jsx
+ │    └── Footer.jsx
+ │
+ ├── pages/
+ │    └── Home.jsx
+ │
+ ├── assets/
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/CodingWithLaiba/my-portfolio.git
+```
+
+### 2️⃣ Navigate into project
+
+```bash
+cd my-portfolio
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Live Demo
+
+Add your deployed website link here:
+
+```bash
+https://laibaijaz.vercel.app/
+```
+
+---
+
+## 📄 CV Download
+
+The downloadable CV file is located inside:
+
+```bash
+public/LaibaIjazCV.pdf
+```
+
+To update your CV:
+
+* Replace the PDF file
+* Keep the same filename
+
+---
+
+## 🎨 Design Inspiration
+
+Inspired by:
+
+* Apple-style floating UI
+* Modern SaaS dashboards
+* Cyberpunk + Midnight Teal aesthetics
+* Minimal developer portfolios
+
+---
+
+## 📬 Contact
+
+### 👩‍💻 Laiba Ijaz
+
+* GitHub: https://github.com/CodingWithLaiba
+* Email: [laibaijaz904@gmail.com](mailto:laibaijaz904@gmail.com)
+* Location: Pakistan
+
+---
+
+## 📜 License
+
+This project is open source and available under the MIT License.
+
+---
+
+# 💙 Built with passion, gradients, and clean code.
